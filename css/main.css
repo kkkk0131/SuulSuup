@@ -1,0 +1,579 @@
+
+.in_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    width: 110px;
+}
+
+.gnb {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo a {
+        width: 80px;
+    }
+
+    .gnb {
+        width: 300px;
+    }
+
+    .gnb a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    header {
+        height: 130px;
+        padding: 25px 0;
+    }
+
+    .in_header {
+        flex-direction: column;
+    }
+}
+
+/* header end */
+
+.main a {
+    width: 100%;
+    height: 100%;
+}
+
+.main_text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.main_text img {
+    width: 1.5px;
+    height: 45px;
+    margin: 20px auto;
+}
+
+.main_text>p:first-child {
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.main_text_under>p:nth-child(1) {
+    font-size: 40px;
+    font-family: "Song Myung", serif;
+}
+
+.main_text_under>p:nth-child(2) {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .main_text {
+        top: 45%;
+    }
+
+    .main_text>p:first-child {
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .main_text img {
+        width: 1px;
+        margin: 15px auto;
+    }
+
+    .main_text_under>p:nth-child(1) {
+        font-size: 30px;
+    }
+    
+    .main_text_under>p:nth-child(2) {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .main_text>p:first-child {
+        font-size: 30px;
+        letter-spacing: 6px;
+    }
+
+    .main_text_under>p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    .main_text_under>p:nth-child(2) {
+        font-size: 13px;
+    }
+}
+
+/* main end */
+
+
+.sec_1_con {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: beige; */
+}
+
+.sec_1_con a {
+    width: 600px;
+    height: 600px;
+    margin-right: 150px;
+}
+
+.sec_1_text {
+    width: 430px;
+    color: rgb(54, 54, 54);
+    text-align: center;
+    /* background-color: antiquewhite; */
+}
+
+.sec_1_text img{
+    width: 1.5px;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.sec_1_text>p:nth-child(1) {
+    font-family: "Song Myung", serif;
+    font-size: 40px;
+}
+
+.sec_1_text>p:last-child {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+    font-family: 'KoPubWorldDotum';
+}
+
+@media screen and (max-width: 1500px) {
+    .sec_1_con {
+        width: 900px;
+        height: 450px;
+    }
+
+    .sec_1_con a {
+        width: 400px;
+        height: 400px;
+        margin-right: 80px;
+    }
+
+    .sec_1_text>p:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .sec_1_text>p:last-child {
+        font-size: 18px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sec_1_con {
+        width: 700px;
+        height: 300px;
+    }
+
+    .sec_1_con a {
+        width: 300px;
+        height: 300px;
+        margin-right: 0;
+    }
+
+    .sec_1_text {
+        width: 310px;
+    }
+    
+    .sec_1_text img{
+        width: 1px;
+        height: 35px;
+        margin: 20px auto;
+    }
+
+    .sec_1_text>p:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .sec_1_text>p:last-child {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .sec_1_con {
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .sec_1_con a {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    .sec_1_text {
+        width: 400x;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .sec_1_con {
+        display: block;
+        width: 300px;
+    }
+
+    .sec_1_con a {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sec_1_text {
+        width: 300px;
+    }
+
+    .sec_1_text>p:nth-child(1) {
+        font-size: 25px;
+    }
+} 
+
+/* section_1 end */
+
+.sec_2_con {
+    width: 100%;
+    padding: 0 300px 0 350px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec_2_con p {
+    font-size: 40px;
+    font-family: "Song Myung", serif;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sec_2_con a {
+    height: 700px;
+}
+
+@media screen and (max-width: 1500px) {
+    .sec_2_con {
+        padding: 0 14% 0 17%;
+    }
+
+    .sec_2_con a {
+        height: 500px;
+    }
+
+    .sec_2_con p {
+        font-size: 33px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sec_2_con {
+        padding: 0 12% 0 16%;
+    }
+
+    .sec_2_con a {
+        height: 350px;
+    }
+
+    .sec_2_con p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .sec_2_con {
+        flex-direction: column;
+    }
+
+    .sec_2_con a {
+        height: 400px;
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .sec_2_con a {
+        height: 300px;
+        margin: 40px 0;
+    }
+}
+
+/* section_2 end */
+
+.sec_3_title {
+    text-align: center;
+    margin: 90px 0;
+}
+
+.sec_3_title>p:nth-child(1) {
+    font-family: "Song Myung", serif;
+    /* font-size: 2.4vw; */
+    font-size: 45px;
+}
+
+.sec_3_title>p:nth-child(2) {
+    /* font-size: 0.9vw; */
+    font-size: 18px;
+}
+
+.con {
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    align-items: center;
+}
+
+.con a {
+    width: 50%;
+    height: 100%;
+}
+
+.con_text {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.con_text>p:nth-child(1) {
+    /* font-size: 2.1vw; */
+    font-size: 40px;
+    font-family: "Song Myung", serif;
+}
+
+.con_text>p:last-child {
+    /* font-size: 1.1vw; */
+    font-size: 22px;
+    font-family: 'KoPubWorldDotum';
+}
+
+.con_text img {
+    width: 1.5px;
+    height: 3vw;
+    margin: 25px 0;
+}
+
+.con_2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.con_2 .con_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 10%;
+    text-align: end;
+}
+
+@media screen and (max-width: 1500px) {
+    .sec_3_title {
+        margin: 70px 0;
+    }
+
+    .sec_3_title>p:nth-child(1) {
+        font-size: 35px;
+    }
+
+    .sec_3_title>p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .con_text {
+        padding-left: 7%;
+    }
+
+    .con_text>p:nth-child(1) {
+        font-size: 28px;
+    }
+
+    .con_text>p:last-child {
+        font-size: 17px;
+    }
+
+    .con_text img {
+        margin: 15px 0;
+    }
+
+    .con_2 .con_text {
+        padding-right: 7%;
+    }
+} 
+
+@media screen and (max-width: 1000px) {
+    .sec_3_title {
+        margin: 50px 0;
+    }
+
+    .sec_3_title>p:nth-child(1) {
+        font-size: 30px;
+    }
+
+    .sec_3_title>p:nth-child(2) {
+        font-size: 13px;
+    }
+  
+    .con_text>p:nth-child(1) {
+        font-size: 23px;
+    }
+
+    .con_text>p:last-child {
+        font-size: 14px;
+    }
+
+    .con_text img {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .con {
+        flex-direction: column;
+        width: 100%;
+        height: 100vw;
+    }
+
+    .con a {
+        width: 100%;
+        height: 53vw;
+    }
+
+    .con_text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .con_text img {
+        height: 25px;
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .sec_3_title>p:nth-child(1) {
+        font-size: 27px;
+    }
+
+    .sec_3_title>p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .con {
+        height: 140vw;
+    }
+
+    .con a {
+        height: 70vw;
+    }
+
+    .con_text img {
+        margin: 10px 0;
+    }
+}
+
+/* section_3 end */
+
+
+.in_footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer_menu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #6E6E6E;
+}
+
+.footer_menu a {
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 45px;
+}
+
+.footer_icon {
+    display: flex;
+}
+
+.footer_icon a {
+    height: 55px;
+    margin-left: 10px;
+}
+
+.footer_text {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer_text>p:nth-child(1) {
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer_menu a {
+        font-size: 13px;
+        margin-right: 35px;
+    }
+
+    .footer_icon a {
+        height: 45px;
+    }
+
+    .footer_text {
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    .footer_text>p:nth-child(1) {
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    .footer_menu {
+        width: 100%;
+    }
+    .footer_icon {
+        display: none;
+    }
+}
