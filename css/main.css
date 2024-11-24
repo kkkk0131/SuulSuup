@@ -329,6 +329,11 @@
         height: 300px;
         margin: 40px 0;
     }
+
+    .sec_2_con p {
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
 
 /* section_2 end */
