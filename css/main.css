@@ -281,6 +281,7 @@
 
 .sec_2_con a {
     height: 700px;
+    width: 284px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -290,6 +291,7 @@
 
     .sec_2_con a {
         height: 500px;
+        width: 203px;
     }
 
     .sec_2_con p {
@@ -305,6 +307,7 @@
 
     .sec_2_con a {
         height: 350px;
+        width: 143px;
     }
 
     .sec_2_con p {
@@ -320,6 +323,7 @@
 
     .sec_2_con a {
         height: 400px;
+        width: 163px;
         margin: 40px 0;
     }
 }
